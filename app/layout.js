@@ -1,0 +1,1 @@
+// Original content from app/layout.tsx here. Please provide the contents or details if needed, so I can proceed.
