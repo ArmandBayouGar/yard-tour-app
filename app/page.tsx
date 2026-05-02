@@ -15,7 +15,7 @@ export default function Page() {
     const width = 1200;
     const height = 1800;
 
-    const bounds = [[0, 0], [height, width]];
+const bounds: L.LatLngBoundsExpression = [[0, 0], [height, width]];
 
     L.imageOverlay("/yard.png", bounds).addTo(map);
     map.fitBounds(bounds);
